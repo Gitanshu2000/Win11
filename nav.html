@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav
+    {
+        background-color: black;
+        border-radius: 3px;
+
+    }
+    .nav li{
+        float: left;
+        margin:13px 20px;
+        list-style: none;
+
+    }
+    .nav li a{
+        text-decoration: none;
+        color: white;
+        padding: 3px 3px;
+    }
+    .nav ul{
+        overflow: auto;
+    }
+    .nav li a:hover
+    {
+        background-color: blueviolet;
+    }
+    .search{
+    color:rebeccapurple;
+        padding: 12px 75px;
+        float: right;
+    }
+    .search input{
+        
+        width: 199px;
+        border: 5px black solid;
+        padding: 3px 17px;
+
+    }
+    
+    
+
+</style>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="_blank">login</a></li>
+            <li><a href="#">forget password</a></li>
+            <li><a href="#">logout</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search this website">
+            </div>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
+
